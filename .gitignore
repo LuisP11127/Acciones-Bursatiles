@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Datos regenerables: precios (caché de GitHub Actions) y datasets/predicciones intermedias
+data/raw/
+data/processed/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/tsconfig.tsbuildinfo
+frontend/public/data/*
+!frontend/public/data/.gitkeep
+
+# Salidas locales antiguas
+salida/

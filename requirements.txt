@@ -1,0 +1,8 @@
+# Dependencias del pipeline de datos, análisis y exportación (sin PyTorch).
+numpy>=1.26
+pandas>=2.1
+PyYAML>=6.0
+requests>=2.31
+lxml>=5.0
+yfinance>=0.2.54
+vaderSentiment>=3.3.2

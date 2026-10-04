@@ -1,0 +1,6 @@
+node_modules/
+dist/
+# Los datos los genera GitHub Actions en cada despliegue
+public/data/*
+!public/data/.gitkeep
+tsconfig.tsbuildinfo

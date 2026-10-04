@@ -1,0 +1,22 @@
+# Tus compras reales (opcional).
+#
+# El sistema hace seguimiento diario de cada una: precio, ganancia/pérdida,
+# estado frente a las MA(7), MA(25) y MA(99), noticias y alertas.
+# Escribe por qué compraste y por qué es importante: así el reporte te
+# recuerda tu tesis y te avisa si deja de cumplirse.
+# Si dejas "razones" o "importancia" vacías, el sistema las completa con su
+# propio análisis.
+#
+# Ejemplo (quita los # para activarlo):
+#
+# posiciones:
+#   - ticker: MSFT
+#     fecha_compra: 2026-09-15
+#     precio_compra: 430.50
+#     acciones: 5
+#     razones:
+#       - "Rebotó en la MA(99) con volumen alto"
+#       - "Crecimiento de Azure por encima del 30%"
+#     importancia: "Líder en nube e inteligencia artificial; base de mi cartera a largo plazo"
+
+posiciones: []
