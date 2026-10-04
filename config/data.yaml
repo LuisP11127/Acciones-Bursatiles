@@ -1,0 +1,43 @@
+# Fuentes de datos y control de calidad.
+# Las claves de API NUNCA se escriben aquí: se leen de variables de entorno
+# (GitHub Secrets). Sin clave, el proveedor correspondiente se omite.
+
+market_data:
+  provider: yfinance            # yfinance | synthetic (synthetic = solo desarrollo/pruebas)
+  history_start: "2010-01-01"
+  batch_size: 80
+  retries: 3
+  retry_backoff_seconds: 5
+  timeout_seconds: 30
+  incremental_lookback_days: 20 # descarga incremental: re-descarga estos días y verifica ajustes
+
+market_calendar:
+  timezone: America/New_York    # horario de la bolsa de Nueva York (NYSE/Nasdaq)
+  close_time: "16:00"
+  data_ready_delay_minutes: 45  # margen tras el cierre para que el proveedor publique la sesión
+
+validation:
+  max_daily_move: 0.60          # |variación diaria| mayor sin split = dato sospechoso
+  spike_reversal_move: 0.35     # subida y bajada (o al revés) de este tamaño en días seguidos = error de dato
+  max_suspicious_days: 3        # más días sospechosos -> la acción se excluye
+  max_missing_ratio: 0.03       # sesiones faltantes respecto al calendario de referencia
+  max_gap_sessions: 10          # hueco máximo de sesiones consecutivas
+  ohlc_tolerance: 0.01          # incoherencias OHLC menores se corrigen; mayores eliminan la fila
+
+news:
+  providers: [yahoo, google_rss, finnhub]   # finnhub solo si existe NEWS_API_KEY
+  max_items_per_symbol: 15
+  lookback_days: 14
+  half_life_days: 3
+  max_symbols_per_run: 60       # noticias solo para candidatas, posiciones y seguimiento
+  request_timeout_seconds: 15
+
+fundamentals:
+  enabled: true
+  provider: yfinance            # yfinance | synthetic | none
+  min_metrics: 3                # métricas mínimas para calcular fundamental_score
+
+export:
+  chart_history_years: 10       # historial diario en las páginas de cada acción (periodo MAX)
+  oscillator_years: 3           # RSI y MACD en los gráficos
+  news_archive_months: 3        # noticias del archivo propio que se muestran en la web

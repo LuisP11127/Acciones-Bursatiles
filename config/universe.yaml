@@ -1,0 +1,23 @@
+# Universo de acciones a analizar.
+# Las listas del S&P 500 y del Nasdaq-100 se descargan de Wikipedia y se guardan
+# en una copia versionada (snapshot_file). Si Wikipedia no responde se usa la
+# última copia guardada y, si no existe, fallback_file.
+
+universe:
+  sp500: true
+  nasdaq100: true
+  additional_symbols: []        # p. ej. [SHOP, SQ]
+  exclude_symbols: []           # símbolos que nunca se analizan
+  max_symbols: 0                # 0 = sin límite (útil para pruebas rápidas)
+  snapshot_file: data/universe/universe.csv
+  fallback_file: config/universe_fallback.csv
+  benchmark: SPY                # referencia para fuerza relativa y backtesting
+  reference_symbols: [SPY, QQQ, DIA, IWM]
+
+# Filtros de liquidez y calidad. Se evalúan punto a punto en el tiempo
+# (en cada fecha solo con datos disponibles hasta esa fecha).
+filters:
+  min_price: 5.0
+  min_avg_dollar_volume: 20000000   # USD/día, media de 20 sesiones
+  min_history_days: 300             # sesiones mínimas para analizar una acción
+  max_stale_days: 5                 # sesiones sin datos nuevos antes de omitirla

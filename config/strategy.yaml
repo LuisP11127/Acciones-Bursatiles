@@ -1,0 +1,36 @@
+# Reglas de la estrategia, del paper trading y del backtesting.
+# El sistema NUNCA envía órdenes reales.
+
+# RESEARCH: genera señales, ranking e historial, sin operaciones simuladas.
+# PAPER_TRADING: además abre y cierra operaciones SIMULADAS.
+mode: PAPER_TRADING
+
+strategy:
+  name: combined_v1
+  min_final_score: 65
+  min_statistical_score: 55
+  # Umbral de la red. "auto" = tasa base del modelo × min_neural_lift.
+  # Puede fijarse un número, p. ej. 0.65.
+  min_neural_probability: auto
+  min_neural_lift: 1.15
+  require_neural_model: false   # true = no operar sin un modelo neuronal en producción
+  max_positions: 20
+  max_new_positions_per_day: 3
+  holding_period_days: 20
+  stop_loss: 0.08               # -8% desde la entrada
+  take_profit: 0.15             # +15% desde la entrada
+  exit_on_trend_break: true     # MA7 < MA25 y cierre < MA99 -> salida en la siguiente apertura
+  max_entry_gap: 0.05           # si abre >5% sobre el cierre de la señal -> INVALIDATED
+  initial_capital: 100000
+  commission_bps: 5             # por lado
+  slippage_bps: 5               # por lado
+
+opportunities:
+  min_final_score: 60           # mínimo para listarla como oportunidad
+  top_n: 30
+
+backtest:
+  start: null                   # null = primer día con predicciones fuera de muestra
+  end: null
+  risk_free_rate: 0.0
+  strategies: [combined, statistical_only, neural_only, ma_crossover]

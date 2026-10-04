@@ -1,0 +1,20 @@
+[project]
+name = "quant-research-platform"
+version = "2.0.0"
+description = "Análisis cuantitativo de acciones de EE.UU., backtesting walk-forward, red neuronal y paper trading (sin operaciones reales)."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+# o, h, l, c = open, high, low, close: convención habitual en datos OHLC
+ignore = ["E741"]

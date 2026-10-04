@@ -1,0 +1,74 @@
+# Modelos: features, etiquetas, scores, ranking y red neuronal.
+# Los pesos del ranking SOLO se definen aquí.
+
+features:
+  version: f1                   # cambia al modificar las features (invalida modelos anteriores)
+  lookback: 40                  # longitud de la secuencia que ve la red (sesiones)
+  # Las noticias gratuitas no tienen historial de años: se activarán como
+  # feature cuando el archivo propio cubra suficiente periodo.
+  use_news_features: false
+
+labels:
+  # La etiqueta usa el FUTURO y solo existe durante el entrenamiento histórico.
+  # Simula la operación de strategy.yaml: entrada en la apertura siguiente a T,
+  # salida por stop-loss, take-profit o al cumplir holding_period_days.
+  # Es oportunidad si el retorno neto de costes supera min_trade_return.
+  min_trade_return: 0.02
+
+statistical:
+  weights:
+    trend: 0.25
+    momentum: 0.20
+    technical: 0.20
+    volume: 0.10
+    risk: 0.15
+    history: 0.10
+  history_window_days: 504      # ventana del comportamiento histórico (resultados ya conocidos)
+  history_min_observations: 40
+
+ranking:
+  # final_score = media ponderada de los componentes disponibles.
+  # Si un componente no existe (sin noticias, sin fundamentales, sin modelo
+  # en producción) su peso se reparte entre los demás.
+  weights:
+    statistical: 0.35
+    news: 0.15
+    fundamental: 0.15
+    neural: 0.25
+    risk: 0.10
+  preliminary_candidates: 60    # mejores por score técnico que pasan a noticias/fundamentales
+
+neural_network:
+  architecture: gru             # gru | lstm
+  hidden_size: 48
+  num_layers: 1
+  dropout: 0.25
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  batch_size: 512
+  max_epochs: 15
+  patience: 3
+  sample_stride: 2              # 1 de cada N sesiones como ejemplo (reduce correlación y tiempo)
+  max_train_samples: 150000
+  return_loss_weight: 0.3       # cabezas auxiliares: retorno esperado y drawdown esperado
+  drawdown_loss_weight: 0.3
+  mc_dropout_passes: 10         # pasadas con dropout para estimar la confianza
+  seed: 42
+  num_threads: 0                # 0 = automático
+
+walk_forward:
+  train_start: "2011-01-01"
+  first_test_year: 2019
+  last_test_year: null          # null = hasta el último año con etiquetas completas
+  validation_years: 1
+  purge_days: 25                # >= holding_period_days + 1: evita solapamiento de etiquetas
+  max_folds: 0                  # 0 = todos
+
+promotion:
+  # Un modelo nuevo solo pasa a producción si cumple todo esto.
+  min_auc: 0.52
+  min_top_decile_lift: 1.05
+  min_auc_advantage_vs_baselines: 0.0
+  max_auc_drop_vs_production: 0.01
+  max_sharpe_drop_vs_production: 0.10
+  min_test_samples: 2000
