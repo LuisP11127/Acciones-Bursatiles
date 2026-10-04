@@ -1,0 +1,79 @@
+{
+ "as_of": "2026-10-02",
+ "generated_at": "2026-10-04T02:18:07+00:00",
+ "checked": 507,
+ "rejected": 3,
+ "rejected_symbols": {
+  "FDXF": [
+   "historial insuficiente (90 sesiones < 300)"
+  ],
+  "HONA": [
+   "historial insuficiente (77 sesiones < 300)"
+  ],
+  "Q": [
+   "historial insuficiente (235 sesiones < 300)"
+  ]
+ },
+ "reports": {
+  "FDXF": {
+   "symbol": "FDXF",
+   "rows_in": 90,
+   "rows_out": 90,
+   "duplicates_removed": 0,
+   "invalid_rows_removed": 0,
+   "ohlc_fixed": 0,
+   "spikes_removed": 0,
+   "suspicious_moves": 0,
+   "zero_volume_days": 0,
+   "missing_ratio": 0.0,
+   "max_gap_sessions": 0,
+   "first_date": "2026-05-27",
+   "last_date": "2026-10-02",
+   "usable_for_training": false,
+   "usable_for_signals": false,
+   "issues": [
+    "historial insuficiente (90 sesiones < 300)"
+   ]
+  },
+  "HONA": {
+   "symbol": "HONA",
+   "rows_in": 77,
+   "rows_out": 77,
+   "duplicates_removed": 0,
+   "invalid_rows_removed": 0,
+   "ohlc_fixed": 0,
+   "spikes_removed": 0,
+   "suspicious_moves": 0,
+   "zero_volume_days": 0,
+   "missing_ratio": 0.0,
+   "max_gap_sessions": 0,
+   "first_date": "2026-06-15",
+   "last_date": "2026-10-02",
+   "usable_for_training": false,
+   "usable_for_signals": false,
+   "issues": [
+    "historial insuficiente (77 sesiones < 300)"
+   ]
+  },
+  "Q": {
+   "symbol": "Q",
+   "rows_in": 235,
+   "rows_out": 235,
+   "duplicates_removed": 0,
+   "invalid_rows_removed": 0,
+   "ohlc_fixed": 0,
+   "spikes_removed": 0,
+   "suspicious_moves": 0,
+   "zero_volume_days": 0,
+   "missing_ratio": 0.0,
+   "max_gap_sessions": 0,
+   "first_date": "2025-10-27",
+   "last_date": "2026-10-02",
+   "usable_for_training": false,
+   "usable_for_signals": false,
+   "issues": [
+    "historial insuficiente (235 sesiones < 300)"
+   ]
+  }
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "task": "market_update",
+ "started_at": "2026-10-04T02:14:57+00:00",
+ "finished_at": "2026-10-04T02:18:07+00:00",
+ "counters": {
+  "symbols_updated": 507,
+  "symbols_stale": 0,
+  "symbols_failed": 0,
+  "symbols_rejected_quality": 3,
+  "symbols_analyzed": 500,
+  "news_items_processed": 825,
+  "paper_signal": 3,
+  "news_archived": 825
+ },
+ "info": {
+  "expected_session": "2026-10-02",
+  "mode": "PAPER_TRADING",
+  "universe_size": 503,
+  "data_as_of": "2026-10-02",
+  "symbols_eligible": 500,
+  "model_version": null,
+  "opportunities": 30,
+  "open_trades": 0,
+  "pending_trades": 3,
+  "status": "ok"
+ },
+ "errors": [],
+ "warnings": [
+  {
+   "tag": "UNIVERSE",
+   "symbol": null,
+   "message": "No se pudo leer Nasdaq-100 de Wikipedia: No se encontró la tabla de componentes en https://en.wikipedia.org/wiki/Nasdaq-100"
+  }
+ ],
+ "n_errors": 0,
+ "n_warnings": 1
+}

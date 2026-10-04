@@ -1,0 +1,13 @@
+{
+ "initial_capital": 100000.0,
+ "cash": 100000.0,
+ "history": [
+  {
+   "date": "2026-10-02",
+   "equity": 100000.0,
+   "cash": 100000.0,
+   "invested": 0.0,
+   "open_positions": 0
+  }
+ ]
+}
