@@ -1,0 +1,34 @@
+{
+ "task": "model_training",
+ "started_at": "2026-10-04T02:33:08+00:00",
+ "finished_at": "2026-10-04T02:45:55+00:00",
+ "counters": {
+  "symbols_updated": 507,
+  "symbols_stale": 0,
+  "symbols_failed": 0,
+  "symbols_rejected_quality": 3,
+  "symbols_analyzed": 500
+ },
+ "info": {
+  "universe_size": 503,
+  "dataset_rows": 1984319,
+  "dataset_labeled_samples": 1805812,
+  "dataset_symbols": 500,
+  "backtest_period": "2019-01-02 → 2026-09-03",
+  "candidate_version": "model_v001",
+  "promoted": false,
+  "production_version": null,
+  "oos_auc": 0.5137,
+  "status": "ok"
+ },
+ "errors": [],
+ "warnings": [
+  {
+   "tag": "UNIVERSE",
+   "symbol": null,
+   "message": "No se pudo leer Nasdaq-100 de Wikipedia: No se encontró la tabla de componentes en https://en.wikipedia.org/wiki/Nasdaq-100"
+  }
+ ],
+ "n_errors": 0,
+ "n_warnings": 1
+}
