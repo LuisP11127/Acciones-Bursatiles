@@ -1,6 +1,6 @@
 {
  "initial_capital": 100000.0,
- "cash": 100000.0,
+ "cash": 85000.0,
  "history": [
   {
    "date": "2026-10-02",
@@ -8,6 +8,13 @@
    "cash": 100000.0,
    "invested": 0.0,
    "open_positions": 0
+  },
+  {
+   "date": "2026-10-05",
+   "equity": 100212.42,
+   "cash": 85000.0,
+   "invested": 15212.42,
+   "open_positions": 3
   }
  ]
 }
