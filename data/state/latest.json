@@ -1,6 +1,6 @@
 {
- "as_of": "2026-10-06",
- "generated_at": "2026-10-07T01:34:53+00:00",
+ "as_of": "2026-10-07",
+ "generated_at": "2026-10-08T01:58:35+00:00",
  "mode": "PAPER_TRADING",
  "data_source": "yfinance",
  "model": {
@@ -10,7 +10,7 @@
   "base_rate": null,
   "threshold": null
  },
- "symbols_analyzed": 499,
- "symbols_eligible": 434,
+ "symbols_analyzed": 498,
+ "symbols_eligible": 497,
  "opportunities": 30
 }
