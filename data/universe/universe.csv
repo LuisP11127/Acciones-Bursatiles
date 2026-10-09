@@ -120,7 +120,6 @@ CSGP,CoStar Group,Real Estate,Real Estate Services,S&P 500
 CSX,CSX Corporation,Industrials,Rail Transportation,S&P 500
 CTAS,Cintas,Industrials,Diversified Support Services,S&P 500
 CTSH,Cognizant,Information Technology,IT Consulting & Other Services,S&P 500
-CTVA,Corteva,Materials,Fertilizers & Agricultural Chemicals,S&P 500
 CVNA,Carvana,Consumer Discretionary,Automotive Retail,S&P 500
 CVS,CVS Health,Health Care,Health Care Services,S&P 500
 CVX,Chevron Corporation,Energy,Integrated Oil & Gas,S&P 500
@@ -378,7 +377,6 @@ PPG,PPG Industries,Materials,Specialty Chemicals,S&P 500
 PPL,PPL Corporation,Utilities,Electric Utilities,S&P 500
 PRU,Prudential Financial,Financials,Life & Health Insurance,S&P 500
 PSA,Public Storage,Real Estate,Self-Storage REITs,S&P 500
-PSKY,Paramount Skydance Corporation,Communication Services,Movies & Entertainment,S&P 500
 PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing,S&P 500
 PTC,PTC Inc.,Information Technology,Application Software,S&P 500
 PWR,Quanta Services,Industrials,Construction & Engineering,S&P 500
@@ -405,6 +403,7 @@ SBUX,Starbucks,Consumer Discretionary,Restaurants,S&P 500
 SCHW,Charles Schwab Corporation,Financials,Investment Banking & Brokerage,S&P 500
 SHW,Sherwin-Williams,Materials,Specialty Chemicals,S&P 500
 SJM,J.M. Smucker Company (The),Consumer Staples,Packaged Foods & Meats,S&P 500
+SKYD,Skydance Corporation,Communication Services,Movies & Entertainment,S&P 500
 SLB,Schlumberger,Energy,Oil & Gas Equipment & Services,S&P 500
 SMCI,Supermicro,Information Technology,"Technology Hardware, Storage & Peripherals",S&P 500
 SNA,Snap-on,Industrials,Industrial Machinery & Supplies & Components,S&P 500
@@ -449,6 +448,7 @@ TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers,S&P 500
 TSN,Tyson Foods,Consumer Staples,Packaged Foods & Meats,S&P 500
 TT,Trane Technologies,Industrials,Building Products,S&P 500
 TTWO,Take-Two Interactive,Communication Services,Interactive Home Entertainment,S&P 500
+TWLO,Twilio,Information Technology,Systems Software,S&P 500
 TXN,Texas Instruments,Information Technology,Semiconductors,S&P 500
 TXT,Textron,Industrials,Aerospace & Defense,S&P 500
 TYL,Tyler Technologies,Information Technology,Application Software,S&P 500
@@ -476,10 +476,10 @@ VRTX,Vertex Pharmaceuticals,Health Care,Biotechnology,S&P 500
 VST,Vistra Corp.,Utilities,Electric Utilities,S&P 500
 VTR,Ventas,Real Estate,Health Care REITs,S&P 500
 VTRS,Viatris,Health Care,Pharmaceuticals,S&P 500
+VYLR,Vylor,Consumer Staples,Agricultural Products & Services,S&P 500
 VZ,Verizon,Communication Services,Integrated Telecommunication Services,S&P 500
 WAB,Wabtec,Industrials,Construction Machinery & Heavy Transportation Equipment,S&P 500
 WAT,Waters Corporation,Health Care,Life Sciences Tools & Services,S&P 500
-WBD,Warner Bros. Discovery,Communication Services,Broadcasting,S&P 500
 WDAY,"Workday, Inc.",Information Technology,Application Software,S&P 500
 WDC,Western Digital,Information Technology,"Technology Hardware, Storage & Peripherals",S&P 500
 WEC,WEC Energy Group,Utilities,Electric Utilities,S&P 500
