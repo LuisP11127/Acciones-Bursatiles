@@ -1,6 +1,6 @@
 {
- "as_of": "2026-10-08",
- "generated_at": "2026-10-09T02:12:37+00:00",
+ "as_of": "2026-10-09",
+ "generated_at": "2026-10-10T00:43:24+00:00",
  "checked": 507,
  "rejected": 4,
  "rejected_symbols": {
@@ -20,10 +20,10 @@
  "reports": {
   "FDXF": {
    "symbol": "FDXF",
-   "rows_in": 94,
+   "rows_in": 95,
    "rows_out": 94,
    "duplicates_removed": 0,
-   "invalid_rows_removed": 0,
+   "invalid_rows_removed": 1,
    "ohlc_fixed": 0,
    "spikes_removed": 0,
    "suspicious_moves": 0,
@@ -40,10 +40,10 @@
   },
   "HONA": {
    "symbol": "HONA",
-   "rows_in": 81,
+   "rows_in": 82,
    "rows_out": 81,
    "duplicates_removed": 0,
-   "invalid_rows_removed": 0,
+   "invalid_rows_removed": 1,
    "ohlc_fixed": 0,
    "spikes_removed": 0,
    "suspicious_moves": 0,
@@ -60,10 +60,10 @@
   },
   "Q": {
    "symbol": "Q",
-   "rows_in": 239,
+   "rows_in": 240,
    "rows_out": 239,
    "duplicates_removed": 0,
-   "invalid_rows_removed": 0,
+   "invalid_rows_removed": 1,
    "ohlc_fixed": 0,
    "spikes_removed": 0,
    "suspicious_moves": 0,
@@ -80,10 +80,10 @@
   },
   "VYLR": {
    "symbol": "VYLR",
-   "rows_in": 6,
+   "rows_in": 7,
    "rows_out": 6,
    "duplicates_removed": 0,
-   "invalid_rows_removed": 0,
+   "invalid_rows_removed": 1,
    "ohlc_fixed": 0,
    "spikes_removed": 0,
    "suspicious_moves": 0,

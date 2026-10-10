@@ -1,0 +1,130 @@
+{
+ "as_of": "2026-10-09",
+ "generated_at": "2026-10-10T00:43:24+00:00",
+ "mode": "PAPER_TRADING",
+ "data_source": "yfinance",
+ "config_hash": "1ccbcd0069d0",
+ "features_version": "f1",
+ "model": {
+  "available": false,
+  "version": null,
+  "reason": "No hay modelo neuronal en producción todavía.",
+  "base_rate": null,
+  "threshold": null
+ },
+ "universe_size": 503,
+ "symbols_analyzed": 499,
+ "symbols_eligible": 1,
+ "symbols_skipped": 4,
+ "deep_analyzed": 16,
+ "news_providers": [
+  "yahoo",
+  "google_rss",
+  "finnhub"
+ ],
+ "market": [
+  {
+   "symbol": "SPY",
+   "price": 773.929993,
+   "change_1d": -0.004233,
+   "ret21": 0.017644,
+   "ret63": 0.027686,
+   "ma7": 771.618574,
+   "ma25": 766.236528,
+   "ma99": 753.933448,
+   "rsi14": 56.734318,
+   "trend": "Alcista"
+  },
+  {
+   "symbol": "QQQ",
+   "price": 747.580017,
+   "change_1d": -0.013395,
+   "ret21": 0.044742,
+   "ret63": 0.031494,
+   "ma7": 750.364293,
+   "ma25": 731.450276,
+   "ma99": 718.808668,
+   "rsi14": 58.990627,
+   "trend": "Alcista"
+  },
+  {
+   "symbol": "DIA",
+   "price": 511.649994,
+   "change_1d": 0.001233,
+   "ret21": -0.021449,
+   "ret63": -0.023545,
+   "ma7": 511.087136,
+   "ma25": 517.58038,
+   "ma99": 519.59436,
+   "rsi14": 41.941057,
+   "trend": "Bajista"
+  },
+  {
+   "symbol": "IWM",
+   "price": 277.570007,
+   "change_1d": -0.000468,
+   "ret21": -0.042475,
+   "ret63": -0.059783,
+   "ma7": 279.774288,
+   "ma25": 284.402935,
+   "ma99": 291.133775,
+   "rsi14": 35.219845,
+   "trend": "Bajista"
+  }
+ ],
+ "opportunities": [
+  {
+   "rank": 1,
+   "symbol": "HUBB",
+   "name": "Hubbell Incorporated",
+   "sector": "Industrials",
+   "price": 474.109985,
+   "change_1d": -0.002714,
+   "final_score": 62.3,
+   "statistical_score": 55.665615,
+   "news_score": 76.0,
+   "fundamental_score": 59.6,
+   "neural_score": null,
+   "risk_score": 69.109566,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +2.8% sobre la MA(25); La MA(7) está por encima de la MA(25); MACD por encima de su línea de señal (histograma positivo); RSI(14) en 55: fuerza sin sobrecompra; Volatilidad anualizada moderada (25%); Noticias recientes con sentimiento muy positivo (11 titulares).",
+   "breakdown": {
+    "final_score": 62.3,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 25.98,
+     "news": 15.2,
+     "fundamental": 11.92,
+     "risk": 9.21
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  }
+ ],
+ "events": [],
+ "ranking_weights": {
+  "statistical": 0.35,
+  "news": 0.15,
+  "fundamental": 0.15,
+  "neural": 0.25,
+  "risk": 0.1
+ }
+}
