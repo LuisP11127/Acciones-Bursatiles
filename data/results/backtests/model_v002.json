@@ -1,0 +1,81 @@
+{
+ "generated_at": "2026-10-10T17:43:02+00:00",
+ "data_as_of": "2026-10-09",
+ "period": {
+  "start": "2019-01-02",
+  "end": "2026-09-11",
+  "sessions": 1934
+ },
+ "model_version": "model_v002",
+ "neural_available": true,
+ "summary": {
+  "combined": {
+   "total_return": 0.565695,
+   "cagr": 0.060028,
+   "sharpe": 0.626126,
+   "sortino": 0.865106,
+   "max_drawdown": -0.179136,
+   "volatility": 0.10163,
+   "win_rate": 0.506035,
+   "profit_factor": 1.33167,
+   "trades": 1077,
+   "avg_holding_days": 15.623955,
+   "exposure": 0.406854
+  },
+  "statistical_only": {
+   "total_return": 0.337443,
+   "cagr": 0.038531,
+   "sharpe": 0.343558,
+   "sortino": 0.466025,
+   "max_drawdown": -0.29808,
+   "volatility": 0.138233,
+   "win_rate": 0.513266,
+   "profit_factor": 1.092482,
+   "trades": 2186,
+   "avg_holding_days": 17.389296,
+   "exposure": 0.922944
+  },
+  "neural_only": {
+   "total_return": 0.522775,
+   "cagr": 0.056204,
+   "sharpe": 0.586664,
+   "sortino": 0.825025,
+   "max_drawdown": -0.167844,
+   "volatility": 0.102408,
+   "win_rate": 0.450698,
+   "profit_factor": 1.211613,
+   "trades": 2150,
+   "avg_holding_days": 7.553023,
+   "exposure": 0.365209
+  },
+  "ma_crossover": {
+   "total_return": 0.964912,
+   "cagr": 0.0918,
+   "sharpe": 0.674138,
+   "sortino": 0.948383,
+   "max_drawdown": -0.238622,
+   "volatility": 0.146613,
+   "win_rate": 0.494683,
+   "profit_factor": 1.147968,
+   "trades": 2351,
+   "avg_holding_days": 15.231816,
+   "exposure": 0.862245
+  },
+  "buy_hold_benchmark": {
+   "total_return": 2.414967,
+   "cagr": 0.173155,
+   "sharpe": 0.927078,
+   "sortino": 1.314823,
+   "max_drawdown": -0.337173,
+   "volatility": 0.192871
+  },
+  "equal_weight_universe": {
+   "total_return": 2.931168,
+   "cagr": 0.194826,
+   "sharpe": 0.98611,
+   "sortino": 1.402908,
+   "max_drawdown": -0.384804,
+   "volatility": 0.20178
+  }
+ }
+}

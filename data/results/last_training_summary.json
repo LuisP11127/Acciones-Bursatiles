@@ -1,24 +1,24 @@
 {
  "task": "model_training",
- "started_at": "2026-10-04T02:33:08+00:00",
- "finished_at": "2026-10-04T02:45:55+00:00",
+ "started_at": "2026-10-10T17:28:28+00:00",
+ "finished_at": "2026-10-10T17:43:03+00:00",
  "counters": {
   "symbols_updated": 507,
   "symbols_stale": 0,
   "symbols_failed": 0,
-  "symbols_rejected_quality": 3,
-  "symbols_analyzed": 500
+  "symbols_rejected_quality": 4,
+  "symbols_analyzed": 499
  },
  "info": {
   "universe_size": 503,
-  "dataset_rows": 1984319,
-  "dataset_labeled_samples": 1805812,
-  "dataset_symbols": 500,
-  "backtest_period": "2019-01-02 → 2026-09-03",
-  "candidate_version": "model_v001",
+  "dataset_rows": 1983335,
+  "dataset_labeled_samples": 1805012,
+  "dataset_symbols": 499,
+  "backtest_period": "2019-01-02 → 2026-09-11",
+  "candidate_version": "model_v002",
   "promoted": false,
   "production_version": null,
-  "oos_auc": 0.5137,
+  "oos_auc": 0.5124,
   "status": "ok"
  },
  "errors": [],
