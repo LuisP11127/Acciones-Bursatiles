@@ -61,14 +61,14 @@
    "max_drawdown": -0.047397,
    "holding_days": 6,
    "current_scores": {
-    "final_score": 74.3,
-    "statistical_score": 74.117744,
-    "news_score": 67.9,
-    "fundamental_score": 80.1,
+    "final_score": 74.4,
+    "statistical_score": 74.112892,
+    "news_score": 68.6,
+    "fundamental_score": 80.0,
     "neural_score": null,
     "risk_score": 75.80658,
     "opportunity_probability": null,
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    "current_price": 226.32,
    "shares": 21.157207,
@@ -140,14 +140,14 @@
    "max_drawdown": -0.001926,
    "holding_days": 6,
    "current_scores": {
-    "final_score": 72.8,
+    "final_score": 70.7,
     "statistical_score": 73.2929,
-    "news_score": 75.1,
-    "fundamental_score": 74.8,
+    "news_score": 64.9,
+    "fundamental_score": 74.5,
     "neural_score": null,
     "risk_score": 64.75589,
     "opportunity_probability": null,
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    "current_price": 436.0,
    "shares": 12.333651,
@@ -216,14 +216,14 @@
    "max_drawdown": -0.008608,
    "holding_days": 6,
    "current_scores": {
-    "final_score": 75.4,
+    "final_score": 76.3,
     "statistical_score": 73.927696,
-    "news_score": 94.2,
-    "fundamental_score": 65.6,
+    "news_score": 99.1,
+    "fundamental_score": 65.5,
     "neural_score": null,
     "risk_score": 66.752007,
     "opportunity_probability": null,
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    "current_price": 567.47,
    "shares": 9.18723,
@@ -297,14 +297,14 @@
    "max_drawdown": -0.03654,
    "holding_days": 5,
    "current_scores": {
-    "final_score": 71.5,
+    "final_score": 70.0,
     "statistical_score": 74.391655,
-    "news_score": 61.7,
+    "news_score": 54.4,
     "fundamental_score": 65.8,
     "neural_score": null,
     "risk_score": 84.27327,
     "opportunity_probability": null,
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    "current_price": 330.44,
    "shares": 14.967603,
@@ -376,14 +376,14 @@
    "max_drawdown": -0.002917,
    "holding_days": 5,
    "current_scores": {
-    "final_score": 74.6,
+    "final_score": 74.8,
     "statistical_score": 75.30146,
-    "news_score": 77.5,
-    "fundamental_score": 75.8,
+    "news_score": 78.2,
+    "fundamental_score": 75.7,
     "neural_score": null,
     "risk_score": 66.268997,
     "opportunity_probability": null,
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    "current_price": 458.81,
    "shares": 11.683079,
@@ -455,14 +455,14 @@
    "max_drawdown": -0.004884,
    "holding_days": 5,
    "current_scores": {
-    "final_score": 72.8,
-    "statistical_score": 76.661896,
-    "news_score": 64.8,
+    "final_score": 75.6,
+    "statistical_score": 76.663231,
+    "news_score": 78.7,
     "fundamental_score": 71.0,
     "neural_score": null,
     "risk_score": 73.826401,
     "opportunity_probability": null,
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    "current_price": 209.0,
    "shares": 26.222246,
@@ -542,14 +542,14 @@
    "max_drawdown": -0.005329,
    "holding_days": 4,
    "current_scores": {
-    "final_score": 74.7,
+    "final_score": 75.9,
     "statistical_score": 79.748489,
-    "news_score": 64.6,
+    "news_score": 70.4,
     "fundamental_score": 69.7,
     "neural_score": null,
     "risk_score": 79.938354,
     "opportunity_probability": null,
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    "current_price": 193.41,
    "shares": 26.172242,
@@ -621,14 +621,14 @@
    "max_drawdown": -0.022497,
    "holding_days": 4,
    "current_scores": {
-    "final_score": 72.4,
-    "statistical_score": 76.300133,
-    "news_score": 59.2,
-    "fundamental_score": 71.4,
+    "final_score": 74.2,
+    "statistical_score": 76.301292,
+    "news_score": 68.2,
+    "fundamental_score": 71.3,
     "neural_score": null,
     "risk_score": 80.064209,
     "opportunity_probability": null,
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    "current_price": 541.15,
    "shares": 9.439129,
@@ -704,14 +704,14 @@
    "max_drawdown": -0.012923,
    "holding_days": 4,
    "current_scores": {
-    "final_score": 76.1,
+    "final_score": 75.7,
     "statistical_score": 76.801697,
-    "news_score": 76.3,
-    "fundamental_score": 72.1,
+    "news_score": 74.6,
+    "fundamental_score": 71.9,
     "neural_score": null,
     "risk_score": 79.259842,
     "opportunity_probability": null,
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    "current_price": 172.15,
    "shares": 30.251381,
@@ -783,14 +783,14 @@
    "max_drawdown": -0.003681,
    "holding_days": 3,
    "current_scores": {
-    "final_score": 74.2,
+    "final_score": 74.7,
     "statistical_score": 75.540848,
-    "news_score": 73.2,
-    "fundamental_score": 69.4,
+    "news_score": 75.7,
+    "fundamental_score": 69.5,
     "neural_score": null,
     "risk_score": 77.819305,
     "opportunity_probability": null,
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    "current_price": 388.12,
    "shares": 13.175009,
@@ -864,12 +864,12 @@
    "current_scores": {
     "final_score": 70.3,
     "statistical_score": 71.359077,
-    "news_score": 68.7,
-    "fundamental_score": 67.8,
+    "news_score": 68.9,
+    "fundamental_score": 67.9,
     "neural_score": null,
     "risk_score": 72.432755,
     "opportunity_probability": null,
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    "current_price": 238.86,
    "shares": 21.222993,
@@ -939,14 +939,14 @@
    "max_drawdown": -0.018666,
    "holding_days": 3,
    "current_scores": {
-    "final_score": 74.0,
+    "final_score": 72.4,
     "statistical_score": 75.45282,
-    "news_score": 75.7,
-    "fundamental_score": 71.0,
+    "news_score": 67.1,
+    "fundamental_score": 71.3,
     "neural_score": null,
     "risk_score": 71.242325,
     "opportunity_probability": null,
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    "current_price": 210.88,
    "shares": 23.468111,
@@ -1022,14 +1022,14 @@
    "max_drawdown": -0.007288,
    "holding_days": 2,
    "current_scores": {
-    "final_score": 75.0,
+    "final_score": 73.0,
     "statistical_score": 77.181244,
-    "news_score": 77.1,
-    "fundamental_score": 63.2,
+    "news_score": 67.2,
+    "fundamental_score": 63.1,
     "neural_score": null,
     "risk_score": 81.997086,
     "opportunity_probability": null,
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    "current_price": 249.89,
    "shares": 20.331628,
@@ -1101,14 +1101,14 @@
    "max_drawdown": -0.01115,
    "holding_days": 2,
    "current_scores": {
-    "final_score": 71.5,
+    "final_score": 71.6,
     "statistical_score": 73.369118,
-    "news_score": 63.3,
-    "fundamental_score": 75.1,
+    "news_score": 63.7,
+    "fundamental_score": 74.9,
     "neural_score": null,
     "risk_score": 72.232353,
     "opportunity_probability": null,
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    "current_price": 281.47,
    "shares": 18.043657,
@@ -1180,14 +1180,14 @@
    "max_drawdown": -0.00276,
    "holding_days": 2,
    "current_scores": {
-    "final_score": 71.1,
+    "final_score": 70.8,
     "statistical_score": 74.658623,
-    "news_score": 77.3,
-    "fundamental_score": 54.0,
+    "news_score": 75.8,
+    "fundamental_score": 53.8,
     "neural_score": null,
     "risk_score": 74.966248,
     "opportunity_probability": null,
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    "current_price": 955.76,
    "shares": 5.443482,
@@ -1261,14 +1261,14 @@
    "max_drawdown": null,
    "holding_days": 0,
    "current_scores": {
-    "final_score": 76.3,
+    "final_score": 76.8,
     "statistical_score": 79.540245,
-    "news_score": 87.0,
-    "fundamental_score": 60.1,
+    "news_score": 89.6,
+    "fundamental_score": 60.0,
     "neural_score": null,
     "risk_score": 73.078697,
     "opportunity_probability": null,
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    "current_price": 662.23999
   },
@@ -1335,14 +1335,14 @@
    "max_drawdown": null,
    "holding_days": 0,
    "current_scores": {
-    "final_score": 75.8,
+    "final_score": 75.2,
     "statistical_score": 73.253792,
-    "news_score": 78.3,
-    "fundamental_score": 80.5,
+    "news_score": 75.3,
+    "fundamental_score": 80.4,
     "neural_score": null,
     "risk_score": 73.656204,
     "opportunity_probability": null,
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    "current_price": 150.509995
   },
@@ -1407,14 +1407,14 @@
    "max_drawdown": null,
    "holding_days": 0,
    "current_scores": {
-    "final_score": 75.6,
+    "final_score": 73.5,
     "statistical_score": 73.273361,
-    "news_score": 82.5,
-    "fundamental_score": 69.3,
+    "news_score": 72.2,
+    "fundamental_score": 69.2,
     "neural_score": null,
     "risk_score": 83.071297,
     "opportunity_probability": null,
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    "current_price": 389.269989
   }
