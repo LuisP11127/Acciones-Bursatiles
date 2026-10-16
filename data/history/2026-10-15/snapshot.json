@@ -1,0 +1,140 @@
+{
+ "as_of": "2026-10-15",
+ "generated_at": "2026-10-16T00:27:13+00:00",
+ "mode": "PAPER_TRADING",
+ "data_source": "yfinance",
+ "config_hash": "1ccbcd0069d0",
+ "features_version": "f1",
+ "model": {
+  "available": false,
+  "version": null,
+  "reason": "No hay modelo neuronal en producción todavía.",
+  "base_rate": null,
+  "threshold": null
+ },
+ "universe_size": 503,
+ "symbols_analyzed": 499,
+ "symbols_eligible": 1,
+ "symbols_skipped": 4,
+ "deep_analyzed": 21,
+ "news_providers": [
+  "yahoo",
+  "google_rss",
+  "finnhub"
+ ],
+ "market": [
+  {
+   "symbol": "SPY",
+   "price": 769.599976,
+   "change_1d": -0.01081,
+   "ret21": 0.018644,
+   "ret63": 0.027695,
+   "ma7": 776.359994,
+   "ma25": 767.843276,
+   "ma99": 755.507955,
+   "rsi14": 50.091749,
+   "trend": "Alcista"
+  },
+  {
+   "symbol": "QQQ",
+   "price": 728.950012,
+   "change_1d": -0.019662,
+   "ret21": 0.035725,
+   "ret63": 0.033671,
+   "ma7": 747.82857,
+   "ma25": 735.51103,
+   "ma99": 720.113567,
+   "rsi14": 44.796105,
+   "trend": "Alcista"
+  },
+  {
+   "symbol": "DIA",
+   "price": 515.630005,
+   "change_1d": -0.001124,
+   "ret21": -0.008464,
+   "ret63": -0.014169,
+   "ma7": 514.727138,
+   "ma25": 515.485668,
+   "ma99": 520.348641,
+   "rsi14": 47.865964,
+   "trend": "Bajista"
+  },
+  {
+   "symbol": "IWM",
+   "price": 271.369995,
+   "change_1d": -0.019263,
+   "ret21": -0.048292,
+   "ret63": -0.07954,
+   "ma7": 277.360003,
+   "ma25": 281.661523,
+   "ma99": 291.032767,
+   "rsi14": 28.333211,
+   "trend": "Bajista"
+  }
+ ],
+ "opportunities": [
+  {
+   "rank": 1,
+   "symbol": "HUBB",
+   "name": "Hubbell Incorporated",
+   "sector": "Industrials",
+   "price": 464.709991,
+   "change_1d": -0.018294,
+   "final_score": 61.4,
+   "statistical_score": 57.460968,
+   "news_score": 66.9,
+   "fundamental_score": 59.7,
+   "neural_score": null,
+   "risk_score": 69.521851,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +0.3% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(99) sube (+0.1% en 10 sesiones); MACD por encima de su línea de señal (histograma positivo); RSI(14) en 47: fuerza sin sobrecompra; Volatilidad anualizada moderada (21%).",
+   "breakdown": {
+    "final_score": 61.4,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 26.82,
+     "news": 13.38,
+     "fundamental": 11.94,
+     "risk": 9.27
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  }
+ ],
+ "events": [
+  {
+   "type": "closed",
+   "trade_id": "T00012",
+   "symbol": "ANET",
+   "date": "2026-10-14",
+   "price": 196.4154,
+   "reason": "Stop-loss",
+   "return": -0.081838
+  }
+ ],
+ "ranking_weights": {
+  "statistical": 0.35,
+  "news": 0.15,
+  "fundamental": 0.15,
+  "neural": 0.25,
+  "risk": 0.1
+ }
+}
