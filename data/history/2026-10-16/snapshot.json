@@ -1,0 +1,108 @@
+{
+ "as_of": "2026-10-16",
+ "generated_at": "2026-10-17T00:31:12+00:00",
+ "mode": "PAPER_TRADING",
+ "data_source": "yfinance",
+ "config_hash": "1ccbcd0069d0",
+ "features_version": "f1",
+ "model": {
+  "available": false,
+  "version": null,
+  "reason": "No hay modelo neuronal en producción todavía.",
+  "base_rate": null,
+  "threshold": null
+ },
+ "universe_size": 503,
+ "symbols_analyzed": 499,
+ "symbols_eligible": 0,
+ "symbols_skipped": 4,
+ "deep_analyzed": 19,
+ "news_providers": [
+  "yahoo",
+  "google_rss",
+  "finnhub"
+ ],
+ "market": [
+  {
+   "symbol": "SPY",
+   "price": 771.789978,
+   "change_1d": 0.002846,
+   "ret21": 0.026068,
+   "ret63": 0.040921,
+   "ma7": 775.31713,
+   "ma25": 768.476763,
+   "ma99": 755.760311,
+   "rsi14": 52.264818,
+   "trend": "Alcista"
+  },
+  {
+   "symbol": "QQQ",
+   "price": 728.0,
+   "change_1d": -0.001303,
+   "ret21": 0.034111,
+   "ret63": 0.048076,
+   "ma7": 743.305716,
+   "ma25": 736.312937,
+   "ma99": 720.106304,
+   "rsi14": 44.233901,
+   "trend": "Alcista"
+  },
+  {
+   "symbol": "DIA",
+   "price": 521.179993,
+   "change_1d": 0.010764,
+   "ret21": 0.0139,
+   "ret63": 0.003849,
+   "ma7": 515.672852,
+   "ma25": 515.550768,
+   "ma99": 520.54079,
+   "rsi14": 55.485014,
+   "trend": "Lateral"
+  },
+  {
+   "symbol": "IWM",
+   "price": 275.079987,
+   "change_1d": 0.013671,
+   "ret21": -0.031136,
+   "ret63": -0.062038,
+   "ma7": 276.465716,
+   "ma25": 281.1867,
+   "ma99": 290.891496,
+   "rsi14": 37.504469,
+   "trend": "Bajista"
+  }
+ ],
+ "opportunities": [],
+ "events": [
+  {
+   "type": "opened",
+   "trade_id": "T00019",
+   "symbol": "EMR",
+   "date": "2026-10-15",
+   "price": 160.17
+  },
+  {
+   "type": "opened",
+   "trade_id": "T00020",
+   "symbol": "IEX",
+   "date": "2026-10-15",
+   "price": 239.0
+  },
+  {
+   "type": "closed",
+   "trade_id": "T00001",
+   "symbol": "NVDA",
+   "date": "2026-10-15",
+   "price": 215.3,
+   "reason": "Stop-loss",
+   "return": -0.089882
+  }
+ ],
+ "ranking_weights": {
+  "statistical": 0.35,
+  "news": 0.15,
+  "fundamental": 0.15,
+  "neural": 0.25,
+  "risk": 0.1
+ }
+}
