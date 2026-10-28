@@ -1,0 +1,84 @@
+{
+ "as_of": "2026-10-27",
+ "generated_at": "2026-10-28T01:22:44+00:00",
+ "mode": "PAPER_TRADING",
+ "data_source": "yfinance",
+ "config_hash": "1ccbcd0069d0",
+ "features_version": "f1",
+ "model": {
+  "available": false,
+  "version": null,
+  "reason": "No hay modelo neuronal en producción todavía.",
+  "base_rate": null,
+  "threshold": null
+ },
+ "universe_size": 503,
+ "symbols_analyzed": 499,
+ "symbols_eligible": 0,
+ "symbols_skipped": 4,
+ "deep_analyzed": 15,
+ "news_providers": [
+  "yahoo",
+  "google_rss",
+  "finnhub"
+ ],
+ "market": [
+  {
+   "symbol": "SPY",
+   "price": 765.369995,
+   "change_1d": 0.007106,
+   "ret21": -0.007753,
+   "ret63": 0.035649,
+   "ma7": 765.881426,
+   "ma25": 769.923997,
+   "ma99": 756.738675,
+   "rsi14": 47.556801,
+   "trend": "Lateral"
+  },
+  {
+   "symbol": "QQQ",
+   "price": 712.200012,
+   "change_1d": 0.011073,
+   "ret21": -0.043385,
+   "ret63": 0.055444,
+   "ma7": 713.151428,
+   "ma25": 735.646804,
+   "ma99": 718.349193,
+   "rsi14": 41.800789,
+   "trend": "Lateral"
+  },
+  {
+   "symbol": "DIA",
+   "price": 522.969971,
+   "change_1d": 0.003069,
+   "ret21": 0.010811,
+   "ret63": -0.00411,
+   "ma7": 523.187134,
+   "ma25": 516.572223,
+   "ma99": 521.536131,
+   "rsi14": 54.572585,
+   "trend": "Lateral"
+  },
+  {
+   "symbol": "IWM",
+   "price": 276.98999,
+   "change_1d": 0.004497,
+   "ret21": -0.017661,
+   "ret63": -0.053368,
+   "ma7": 274.770002,
+   "ma25": 278.143601,
+   "ma99": 289.884903,
+   "rsi14": 45.826392,
+   "trend": "Bajista"
+  }
+ ],
+ "opportunities": [],
+ "events": [],
+ "ranking_weights": {
+  "statistical": 0.35,
+  "news": 0.15,
+  "fundamental": 0.15,
+  "neural": 0.25,
+  "risk": 0.1
+ }
+}
