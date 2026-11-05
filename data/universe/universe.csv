@@ -272,7 +272,6 @@ KMB,Kimberly-Clark,Consumer Staples,Household Products,S&P 500
 KMI,Kinder Morgan,Energy,Oil & Gas Storage & Transportation,S&P 500
 KO,Coca-Cola Company (The),Consumer Staples,Soft Drinks & Non-alcoholic Beverages,S&P 500
 KR,Kroger,Consumer Staples,Food Retail,S&P 500
-KVUE,Kenvue,Consumer Staples,Personal Care Products,S&P 500
 L,Loews Corporation,Financials,Multi-line Insurance,S&P 500
 LDOS,Leidos,Industrials,Diversified Support Services,S&P 500
 LEN,Lennar,Consumer Discretionary,Homebuilding,S&P 500
@@ -346,6 +345,7 @@ NXPI,NXP Semiconductors,Information Technology,Semiconductors,S&P 500
 O,Realty Income,Real Estate,Retail REITs,S&P 500
 ODFL,Old Dominion,Industrials,Cargo Ground Transportation,S&P 500
 OKE,Oneok,Energy,Oil & Gas Storage & Transportation,S&P 500
+OKTA,"Okta, Inc.",Information Technology,Application Software,S&P 500
 OMC,Omnicom Group,Communication Services,Advertising,S&P 500
 ON,ON Semiconductor,Information Technology,Semiconductors,S&P 500
 ORCL,Oracle Corporation,Information Technology,Application Software,S&P 500
