@@ -1,7 +1,7 @@
 {
  "task": "model_training",
- "started_at": "2026-10-31T17:21:55+00:00",
- "finished_at": "2026-10-31T17:29:35+00:00",
+ "started_at": "2026-11-07T17:51:17+00:00",
+ "finished_at": "2026-11-07T18:03:30+00:00",
  "counters": {
   "symbols_updated": 507,
   "symbols_stale": 0,
@@ -11,14 +11,14 @@
  },
  "info": {
   "universe_size": 503,
-  "dataset_rows": 1990821,
-  "dataset_labeled_samples": 1812498,
+  "dataset_rows": 1994844,
+  "dataset_labeled_samples": 1816514,
   "dataset_symbols": 499,
-  "backtest_period": "2019-01-02 → 2026-10-02",
-  "candidate_version": "model_v005",
+  "backtest_period": "2019-01-02 → 2026-10-09",
+  "candidate_version": "model_v006",
   "promoted": false,
   "production_version": null,
-  "oos_auc": 0.511,
+  "oos_auc": 0.5181,
   "status": "ok"
  },
  "errors": [],
