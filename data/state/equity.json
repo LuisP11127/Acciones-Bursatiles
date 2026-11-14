@@ -211,6 +211,13 @@
    "cash": 569.98,
    "invested": 100099.73,
    "open_positions": 20
+  },
+  {
+   "date": "2026-11-13",
+   "equity": 101271.11,
+   "cash": 569.98,
+   "invested": 100701.13,
+   "open_positions": 20
   }
  ]
 }
