@@ -1,0 +1,1435 @@
+{
+ "as_of": "2026-11-17",
+ "generated_at": "2026-11-18T03:44:57+00:00",
+ "mode": "PAPER_TRADING",
+ "data_source": "yfinance",
+ "config_hash": "1ccbcd0069d0",
+ "features_version": "f1",
+ "model": {
+  "available": false,
+  "version": null,
+  "reason": "No hay modelo neuronal en producción todavía.",
+  "base_rate": null,
+  "threshold": null
+ },
+ "universe_size": 503,
+ "symbols_analyzed": 499,
+ "symbols_eligible": 499,
+ "symbols_skipped": 4,
+ "deep_analyzed": 60,
+ "news_providers": [
+  "yahoo",
+  "google_rss",
+  "finnhub"
+ ],
+ "market": [
+  {
+   "symbol": "SPY",
+   "price": 732.440002,
+   "change_1d": -0.010149,
+   "ret21": -0.044411,
+   "ret63": -0.045252,
+   "ma7": 749.471427,
+   "ma25": 758.298391,
+   "ma99": 759.507967,
+   "rsi14": 37.50705,
+   "trend": "Bajista"
+  },
+  {
+   "symbol": "QQQ",
+   "price": 656.950012,
+   "change_1d": -0.007253,
+   "ret21": -0.085486,
+   "ret63": -0.081619,
+   "ma7": 675.892857,
+   "ma25": 695.776802,
+   "ma99": 712.874263,
+   "rsi14": 36.546053,
+   "trend": "Bajista"
+  },
+  {
+   "symbol": "DIA",
+   "price": 507.309998,
+   "change_1d": -0.016231,
+   "ret21": -0.022373,
+   "ret63": -0.047275,
+   "ma7": 519.729998,
+   "ma25": 520.832925,
+   "ma99": 522.859203,
+   "rsi14": 39.901173,
+   "trend": "Bajista"
+  },
+  {
+   "symbol": "IWM",
+   "price": 269.049988,
+   "change_1d": -0.014252,
+   "ret21": -0.00822,
+   "ret63": -0.10595,
+   "ma7": 277.735713,
+   "ma25": 277.056001,
+   "ma99": 287.829574,
+   "rsi14": 39.241585,
+   "trend": "Bajista"
+  }
+ ],
+ "opportunities": [
+  {
+   "rank": 1,
+   "symbol": "HAS",
+   "name": "Hasbro",
+   "sector": "Consumer Discretionary",
+   "price": 118.349998,
+   "change_1d": -0.022062,
+   "final_score": 77.7,
+   "statistical_score": 79.474167,
+   "news_score": 85.6,
+   "fundamental_score": 68.2,
+   "neural_score": null,
+   "risk_score": 73.736008,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +23.4% sobre la MA(99) (118.35 vs 95.91); Precio +2.5% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(99) sube (+4.1% en 10 sesiones); Rentabilidad de 3 meses +26.8%.",
+   "breakdown": {
+    "final_score": 77.7,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 37.09,
+     "news": 17.12,
+     "fundamental": 13.64,
+     "risk": 9.83
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 2,
+   "symbol": "ULTA",
+   "name": "Ulta Beauty",
+   "sector": "Consumer Discretionary",
+   "price": 640.429993,
+   "change_1d": -0.018137,
+   "final_score": 76.5,
+   "statistical_score": 75.96122,
+   "news_score": 95.7,
+   "fundamental_score": 64.2,
+   "neural_score": null,
+   "risk_score": 67.863716,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +16.5% sobre la MA(99) (640.43 vs 549.95); Precio +1.1% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(99) sube (+3.6% en 10 sesiones); Rentabilidad de 3 meses +21.3%.",
+   "breakdown": {
+    "final_score": 76.5,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 35.45,
+     "news": 19.14,
+     "fundamental": 12.84,
+     "risk": 9.05
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 3,
+   "symbol": "AIZ",
+   "name": "Assurant",
+   "sector": "Financials",
+   "price": 322.160004,
+   "change_1d": -0.005065,
+   "final_score": 75.3,
+   "statistical_score": 75.114037,
+   "news_score": 81.4,
+   "fundamental_score": 66.2,
+   "neural_score": null,
+   "risk_score": 80.266754,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +13.8% sobre la MA(99) (322.16 vs 283.16); Precio +7.7% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(25) cruzó por encima de la MA(99) hace 11 sesiones; La MA(99) sube (+2.0% en 10 sesiones).",
+   "breakdown": {
+    "final_score": 75.3,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 35.05,
+     "news": 16.28,
+     "fundamental": 13.24,
+     "risk": 10.7
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 6,
+   "symbol": "CPAY",
+   "name": "Corpay",
+   "sector": "Financials",
+   "price": 452.309998,
+   "change_1d": -0.020402,
+   "final_score": 73.9,
+   "statistical_score": 76.473969,
+   "news_score": 71.0,
+   "fundamental_score": 72.0,
+   "neural_score": null,
+   "risk_score": 72.289391,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +13.2% sobre la MA(99) (452.31 vs 399.42); Precio +6.9% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(99) sube (+2.8% en 10 sesiones); Rentabilidad de 3 meses +11.1%.",
+   "breakdown": {
+    "final_score": 73.9,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 35.69,
+     "news": 14.2,
+     "fundamental": 14.4,
+     "risk": 9.64
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 10,
+   "symbol": "WST",
+   "name": "West Pharmaceutical Services",
+   "sector": "Health Care",
+   "price": 414.119995,
+   "change_1d": -0.008808,
+   "final_score": 73.7,
+   "statistical_score": 74.192398,
+   "news_score": 80.5,
+   "fundamental_score": 63.8,
+   "neural_score": null,
+   "risk_score": 76.942139,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +13.0% sobre la MA(99) (414.12 vs 366.42); Precio +3.2% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(99) sube (+2.1% en 10 sesiones); Rentabilidad de 3 meses +17.5%.",
+   "breakdown": {
+    "final_score": 73.7,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 34.62,
+     "news": 16.1,
+     "fundamental": 12.76,
+     "risk": 10.26
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 13,
+   "symbol": "WELL",
+   "name": "Welltower",
+   "sector": "Real Estate",
+   "price": 245.759995,
+   "change_1d": 0.004537,
+   "final_score": 73.6,
+   "statistical_score": 74.577774,
+   "news_score": 83.9,
+   "fundamental_score": 59.5,
+   "neural_score": null,
+   "risk_score": 76.294212,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +4.5% sobre la MA(99) (245.76 vs 235.14); Precio +2.9% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(25) cruzó por encima de la MA(99) hace 6 sesiones; La MA(99) sube (+1.3% en 10 sesiones).",
+   "breakdown": {
+    "final_score": 73.6,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 34.8,
+     "news": 16.78,
+     "fundamental": 11.9,
+     "risk": 10.17
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 20,
+   "symbol": "CAH",
+   "name": "Cardinal Health",
+   "sector": "Health Care",
+   "price": 279.25,
+   "change_1d": -0.016206,
+   "final_score": 73.4,
+   "statistical_score": 73.945007,
+   "news_score": 81.9,
+   "fundamental_score": 60.8,
+   "neural_score": null,
+   "risk_score": 77.923729,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +16.3% sobre la MA(99) (279.25 vs 240.02); Precio +6.9% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(99) sube (+2.0% en 10 sesiones); Rentabilidad de 3 meses +18.9%.",
+   "breakdown": {
+    "final_score": 73.4,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 34.51,
+     "news": 16.38,
+     "fundamental": 12.16,
+     "risk": 10.39
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 24,
+   "symbol": "AFL",
+   "name": "Aflac",
+   "sector": "Financials",
+   "price": 127.690002,
+   "change_1d": -0.003045,
+   "final_score": 73.2,
+   "statistical_score": 74.522629,
+   "news_score": 81.1,
+   "fundamental_score": 55.7,
+   "neural_score": null,
+   "risk_score": 83.243935,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +6.4% sobre la MA(99) (127.69 vs 119.96); Precio +3.5% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(25) cruzó por encima de la MA(99) hace 8 sesiones; La MA(99) sube (+0.8% en 10 sesiones).",
+   "breakdown": {
+    "final_score": 73.2,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 34.78,
+     "news": 16.22,
+     "fundamental": 11.14,
+     "risk": 11.1
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 25,
+   "symbol": "RSG",
+   "name": "Republic Services",
+   "sector": "Industrials",
+   "price": 252.929993,
+   "change_1d": -0.010291,
+   "final_score": 73.2,
+   "statistical_score": 74.39901,
+   "news_score": 83.1,
+   "fundamental_score": 57.0,
+   "neural_score": null,
+   "risk_score": 78.734009,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +13.2% sobre la MA(99) (252.93 vs 223.36); Precio +4.7% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(99) sube (+1.9% en 10 sesiones); Rentabilidad de 3 meses +14.4%.",
+   "breakdown": {
+    "final_score": 73.2,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 34.72,
+     "news": 16.62,
+     "fundamental": 11.4,
+     "risk": 10.5
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 30,
+   "symbol": "CINF",
+   "name": "Cincinnati Financial",
+   "sector": "Financials",
+   "price": 188.919998,
+   "change_1d": -0.012596,
+   "final_score": 72.9,
+   "statistical_score": 76.498917,
+   "news_score": 75.6,
+   "fundamental_score": 56.9,
+   "neural_score": null,
+   "risk_score": 80.580948,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +8.3% sobre la MA(99) (188.92 vs 174.51); Precio +4.1% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(25) cruzó por encima de la MA(99) hace 7 sesiones; La MA(99) sube (+0.9% en 10 sesiones).",
+   "breakdown": {
+    "final_score": 72.9,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 35.7,
+     "news": 15.12,
+     "fundamental": 11.38,
+     "risk": 10.74
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 31,
+   "symbol": "GWW",
+   "name": "W. W. Grainger",
+   "sector": "Industrials",
+   "price": 1466.959961,
+   "change_1d": -0.019268,
+   "final_score": 72.9,
+   "statistical_score": 77.068405,
+   "news_score": 66.0,
+   "fundamental_score": 68.4,
+   "neural_score": null,
+   "risk_score": 75.236526,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +9.9% sobre la MA(99) (1466.96 vs 1334.36); Precio +4.9% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(25) cruzó por encima de la MA(99) hace 10 sesiones; La MA(99) sube (+1.1% en 10 sesiones).",
+   "breakdown": {
+    "final_score": 72.9,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 35.97,
+     "news": 13.2,
+     "fundamental": 13.68,
+     "risk": 10.03
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 34,
+   "symbol": "EXR",
+   "name": "Extra Space Storage",
+   "sector": "Real Estate",
+   "price": 156.550003,
+   "change_1d": -0.010617,
+   "final_score": 72.8,
+   "statistical_score": 73.603821,
+   "news_score": 79.7,
+   "fundamental_score": 59.6,
+   "neural_score": null,
+   "risk_score": 79.593018,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +9.2% sobre la MA(99) (156.55 vs 143.39); Precio +4.3% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(25) cruzó por encima de la MA(99) hace 7 sesiones; La MA(99) sube (+1.0% en 10 sesiones).",
+   "breakdown": {
+    "final_score": 72.8,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 34.35,
+     "news": 15.94,
+     "fundamental": 11.92,
+     "risk": 10.61
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 36,
+   "symbol": "MAR",
+   "name": "Marriott International",
+   "sector": "Consumer Discretionary",
+   "price": 422.73999,
+   "change_1d": -0.006953,
+   "final_score": 72.8,
+   "statistical_score": 72.248856,
+   "news_score": 79.5,
+   "fundamental_score": 63.9,
+   "neural_score": null,
+   "risk_score": 77.641075,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +14.4% sobre la MA(99) (422.74 vs 369.38); Precio +4.0% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(25) cruzó por encima de la MA(99) hace 18 sesiones; La MA(99) sube (+1.0% en 10 sesiones).",
+   "breakdown": {
+    "final_score": 72.8,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 33.72,
+     "news": 15.9,
+     "fundamental": 12.78,
+     "risk": 10.35
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 37,
+   "symbol": "XEL",
+   "name": "Xcel Energy",
+   "sector": "Utilities",
+   "price": 80.720001,
+   "change_1d": -0.006034,
+   "final_score": 72.8,
+   "statistical_score": 71.940186,
+   "news_score": 83.1,
+   "fundamental_score": 58.0,
+   "neural_score": null,
+   "risk_score": 82.550034,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +5.2% sobre la MA(99) (80.72 vs 76.75); Precio +2.5% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(25) cruzó por encima de la MA(99) hace 6 sesiones; La MA(99) sube (+0.2% en 10 sesiones).",
+   "breakdown": {
+    "final_score": 72.8,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 33.57,
+     "news": 16.62,
+     "fundamental": 11.6,
+     "risk": 11.01
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 38,
+   "symbol": "BRK-B",
+   "name": "Berkshire Hathaway",
+   "sector": "Financials",
+   "price": 586.76001,
+   "change_1d": -0.010272,
+   "final_score": 72.5,
+   "statistical_score": 75.107292,
+   "news_score": 73.9,
+   "fundamental_score": 58.1,
+   "neural_score": null,
+   "risk_score": 82.833595,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +13.2% sobre la MA(99) (586.76 vs 518.37); Precio +5.2% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(99) sube (+1.8% en 10 sesiones); Rentabilidad de 3 meses +17.4%.",
+   "breakdown": {
+    "final_score": 72.5,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 35.05,
+     "news": 14.78,
+     "fundamental": 11.62,
+     "risk": 11.04
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 49,
+   "symbol": "ABBV",
+   "name": "AbbVie",
+   "sector": "Health Care",
+   "price": 292.820007,
+   "change_1d": -0.005873,
+   "final_score": 72.0,
+   "statistical_score": 74.343864,
+   "news_score": 63.8,
+   "fundamental_score": 69.4,
+   "neural_score": null,
+   "risk_score": 80.013,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Positivo",
+   "summary": "Seleccionada porque: Precio +10.7% sobre la MA(99) (292.82 vs 264.51); Precio +1.2% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(99) sube (+2.5% en 10 sesiones); Rentabilidad de 3 meses +10.8%.",
+   "breakdown": {
+    "final_score": 72.0,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 34.69,
+     "news": 12.76,
+     "fundamental": 13.88,
+     "risk": 10.67
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 50,
+   "symbol": "WEC",
+   "name": "WEC Energy Group",
+   "sector": "Utilities",
+   "price": 116.290001,
+   "change_1d": -0.009961,
+   "final_score": 72.0,
+   "statistical_score": 73.152618,
+   "news_score": 77.9,
+   "fundamental_score": 57.5,
+   "neural_score": null,
+   "risk_score": 80.822525,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +7.2% sobre la MA(99) (116.29 vs 108.44); Precio +3.2% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(25) cruzó por encima de la MA(99) hace 8 sesiones; La MA(99) sube (+0.3% en 10 sesiones).",
+   "breakdown": {
+    "final_score": 72.0,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 34.14,
+     "news": 15.58,
+     "fundamental": 11.5,
+     "risk": 10.78
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 54,
+   "symbol": "CHD",
+   "name": "Church & Dwight",
+   "sector": "Consumer Staples",
+   "price": 112.480003,
+   "change_1d": -0.019697,
+   "final_score": 71.8,
+   "statistical_score": 74.181511,
+   "news_score": 76.1,
+   "fundamental_score": 58.5,
+   "neural_score": null,
+   "risk_score": 76.625351,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +12.2% sobre la MA(99) (112.48 vs 100.29); Precio +4.1% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(25) cruzó por encima de la MA(99) hace 19 sesiones; La MA(99) sube (+1.5% en 10 sesiones).",
+   "breakdown": {
+    "final_score": 71.8,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 34.62,
+     "news": 15.22,
+     "fundamental": 11.7,
+     "risk": 10.22
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 56,
+   "symbol": "UPS",
+   "name": "United Parcel Service",
+   "sector": "Industrials",
+   "price": 110.309998,
+   "change_1d": -0.013504,
+   "final_score": 71.8,
+   "statistical_score": 76.3927,
+   "news_score": 73.8,
+   "fundamental_score": 58.3,
+   "neural_score": null,
+   "risk_score": 73.086662,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +7.9% sobre la MA(99) (110.31 vs 102.19); Precio +5.5% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(25) cruzó por encima de la MA(99) hace 3 sesiones; La MA(99) sube (+0.6% en 10 sesiones).",
+   "breakdown": {
+    "final_score": 71.8,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 35.65,
+     "news": 14.76,
+     "fundamental": 11.66,
+     "risk": 9.74
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 58,
+   "symbol": "WRB",
+   "name": "W. R. Berkley Corporation",
+   "sector": "Financials",
+   "price": 77.57,
+   "change_1d": -0.012099,
+   "final_score": 71.7,
+   "statistical_score": 73.378349,
+   "news_score": 75.8,
+   "fundamental_score": 58.5,
+   "neural_score": null,
+   "risk_score": 79.168701,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +8.2% sobre la MA(99) (77.57 vs 71.67); Precio +3.3% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(99) sube (+1.2% en 10 sesiones); Rentabilidad de 3 meses +11.6%.",
+   "breakdown": {
+    "final_score": 71.7,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 34.24,
+     "news": 15.16,
+     "fundamental": 11.7,
+     "risk": 10.56
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 61,
+   "symbol": "COST",
+   "name": "Costco",
+   "sector": "Consumer Staples",
+   "price": 1110.079956,
+   "change_1d": -0.003286,
+   "final_score": 71.5,
+   "statistical_score": 73.338921,
+   "news_score": 76.0,
+   "fundamental_score": 56.1,
+   "neural_score": null,
+   "risk_score": 81.585991,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +15.9% sobre la MA(99) (1110.08 vs 957.56); Precio +7.6% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(25) cruzó por encima de la MA(99) hace 17 sesiones; La MA(99) sube (+1.3% en 10 sesiones).",
+   "breakdown": {
+    "final_score": 71.5,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 34.22,
+     "news": 15.2,
+     "fundamental": 11.22,
+     "risk": 10.88
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 64,
+   "symbol": "VLTO",
+   "name": "Veralto",
+   "sector": "Industrials",
+   "price": 118.379997,
+   "change_1d": -0.016042,
+   "final_score": 71.5,
+   "statistical_score": 74.830711,
+   "news_score": 71.5,
+   "fundamental_score": 61.4,
+   "neural_score": null,
+   "risk_score": 75.291252,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +19.4% sobre la MA(99) (118.38 vs 99.13); Precio +7.6% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(99) sube (+3.5% en 10 sesiones); Rentabilidad de 3 meses +18.4%.",
+   "breakdown": {
+    "final_score": 71.5,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 34.92,
+     "news": 14.3,
+     "fundamental": 12.28,
+     "risk": 10.04
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 68,
+   "symbol": "ADP",
+   "name": "Automatic Data Processing",
+   "sector": "Industrials",
+   "price": 308.290009,
+   "change_1d": -0.016399,
+   "final_score": 71.2,
+   "statistical_score": 75.283844,
+   "news_score": 64.7,
+   "fundamental_score": 64.6,
+   "neural_score": null,
+   "risk_score": 76.223892,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Positivo",
+   "summary": "Seleccionada porque: Precio +13.1% sobre la MA(99) (308.29 vs 272.51); Precio +3.3% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(99) sube (+3.4% en 10 sesiones); Rentabilidad de 3 meses +11.9%.",
+   "breakdown": {
+    "final_score": 71.2,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 35.13,
+     "news": 12.94,
+     "fundamental": 12.92,
+     "risk": 10.16
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 69,
+   "symbol": "DGX",
+   "name": "Quest Diagnostics",
+   "sector": "Health Care",
+   "price": 256.350006,
+   "change_1d": -0.022348,
+   "final_score": 71.2,
+   "statistical_score": 75.57917,
+   "news_score": 62.7,
+   "fundamental_score": 64.3,
+   "neural_score": null,
+   "risk_score": 78.589699,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Positivo",
+   "summary": "Seleccionada porque: Precio +9.2% sobre la MA(99) (256.35 vs 234.73); Precio +3.1% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(99) sube (+2.5% en 10 sesiones); Rentabilidad de 3 meses +6.4%.",
+   "breakdown": {
+    "final_score": 71.2,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 35.27,
+     "news": 12.54,
+     "fundamental": 12.86,
+     "risk": 10.48
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 71,
+   "symbol": "BLK",
+   "name": "BlackRock",
+   "sector": "Financials",
+   "price": 1180.670044,
+   "change_1d": -0.014441,
+   "final_score": 71.1,
+   "statistical_score": 71.579407,
+   "news_score": 69.1,
+   "fundamental_score": 71.9,
+   "neural_score": null,
+   "risk_score": 71.235107,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +6.9% sobre la MA(99) (1180.67 vs 1104.48); Precio +1.4% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(99) sube (+1.8% en 10 sesiones); Rentabilidad de 3 meses +2.4%.",
+   "breakdown": {
+    "final_score": 71.1,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 33.4,
+     "news": 13.82,
+     "fundamental": 14.38,
+     "risk": 9.5
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 72,
+   "symbol": "EG",
+   "name": "Everest Group",
+   "sector": "Financials",
+   "price": 424.470001,
+   "change_1d": -0.0197,
+   "final_score": 71.1,
+   "statistical_score": 74.116165,
+   "news_score": 70.3,
+   "fundamental_score": 61.8,
+   "neural_score": null,
+   "risk_score": 75.548019,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +11.6% sobre la MA(99) (424.47 vs 380.51); Precio +4.4% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(99) sube (+2.2% en 10 sesiones); Rentabilidad de 3 meses +17.3%.",
+   "breakdown": {
+    "final_score": 71.1,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 34.59,
+     "news": 14.06,
+     "fundamental": 12.36,
+     "risk": 10.07
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 76,
+   "symbol": "MCK",
+   "name": "McKesson",
+   "sector": "Health Care",
+   "price": 1091.670044,
+   "change_1d": -0.012099,
+   "final_score": 71.0,
+   "statistical_score": 74.792046,
+   "news_score": 71.7,
+   "fundamental_score": 59.1,
+   "neural_score": null,
+   "risk_score": 74.869507,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +20.3% sobre la MA(99) (1091.67 vs 907.63); Precio +6.0% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(99) sube (+3.6% en 10 sesiones); Rentabilidad de 3 meses +28.0%.",
+   "breakdown": {
+    "final_score": 71.0,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 34.9,
+     "news": 14.34,
+     "fundamental": 11.82,
+     "risk": 9.98
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 79,
+   "symbol": "CME",
+   "name": "CME Group",
+   "sector": "Financials",
+   "price": 311.559998,
+   "change_1d": -0.024454,
+   "final_score": 70.8,
+   "statistical_score": 77.130562,
+   "news_score": 57.3,
+   "fundamental_score": 66.0,
+   "neural_score": null,
+   "risk_score": 76.403534,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Positivo",
+   "summary": "Seleccionada porque: Precio +13.9% sobre la MA(99) (311.56 vs 273.46); Precio +2.7% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(99) sube (+2.7% en 10 sesiones); Rentabilidad de 3 meses +17.3%.",
+   "breakdown": {
+    "final_score": 70.8,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 35.99,
+     "news": 11.46,
+     "fundamental": 13.2,
+     "risk": 10.19
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 80,
+   "symbol": "FAST",
+   "name": "Fastenal",
+   "sector": "Industrials",
+   "price": 54.349998,
+   "change_1d": -0.013791,
+   "final_score": 70.8,
+   "statistical_score": 76.508545,
+   "news_score": 59.0,
+   "fundamental_score": 63.9,
+   "neural_score": null,
+   "risk_score": 78.777199,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Positivo",
+   "summary": "Seleccionada porque: Precio +9.0% sobre la MA(99) (54.35 vs 49.87); Precio +3.0% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(99) sube (+1.8% en 10 sesiones); Rentabilidad de 3 meses +6.2%.",
+   "breakdown": {
+    "final_score": 70.8,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 35.7,
+     "news": 11.8,
+     "fundamental": 12.78,
+     "risk": 10.5
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  },
+  {
+   "rank": 82,
+   "symbol": "HLT",
+   "name": "Hilton Worldwide",
+   "sector": "Consumer Discretionary",
+   "price": 370.529999,
+   "change_1d": -0.008828,
+   "final_score": 70.7,
+   "statistical_score": 73.955719,
+   "news_score": 66.9,
+   "fundamental_score": 62.3,
+   "neural_score": null,
+   "risk_score": 77.855919,
+   "opportunity_probability": null,
+   "confidence": null,
+   "expected_return": null,
+   "expected_drawdown": null,
+   "news_label": "Muy positivo",
+   "summary": "Seleccionada porque: Precio +12.0% sobre la MA(99) (370.53 vs 330.89); Precio +2.7% sobre la MA(25); La MA(7) está por encima de la MA(25); La MA(25) está por encima de la MA(99); La MA(25) cruzó por encima de la MA(99) hace 17 sesiones; La MA(99) sube (+0.9% en 10 sesiones).",
+   "breakdown": {
+    "final_score": 70.7,
+    "weights_used": {
+     "statistical": 0.4667,
+     "news": 0.2,
+     "fundamental": 0.2,
+     "risk": 0.1333
+    },
+    "configured_weights": {
+     "statistical": 0.35,
+     "news": 0.15,
+     "fundamental": 0.15,
+     "neural": 0.25,
+     "risk": 0.1
+    },
+    "contributions": {
+     "statistical": 34.51,
+     "news": 13.38,
+     "fundamental": 12.46,
+     "risk": 10.38
+    },
+    "missing": [
+     "neural"
+    ]
+   }
+  }
+ ],
+ "events": [],
+ "ranking_weights": {
+  "statistical": 0.35,
+  "news": 0.15,
+  "fundamental": 0.15,
+  "neural": 0.25,
+  "risk": 0.1
+ }
+}
