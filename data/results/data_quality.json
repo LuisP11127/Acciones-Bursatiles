@@ -1,29 +1,29 @@
 {
- "as_of": "2026-11-19",
- "generated_at": "2026-11-20T03:14:30+00:00",
+ "as_of": "2026-11-20",
+ "generated_at": "2026-11-21T03:15:00+00:00",
  "checked": 507,
  "rejected": 4,
  "rejected_symbols": {
   "FDXF": [
-   "historial insuficiente (123 sesiones < 300)"
+   "historial insuficiente (125 sesiones < 300)"
   ],
   "HONA": [
-   "historial insuficiente (110 sesiones < 300)"
+   "historial insuficiente (112 sesiones < 300)"
   ],
   "Q": [
-   "historial insuficiente (268 sesiones < 300)"
+   "historial insuficiente (270 sesiones < 300)"
   ],
   "VYLR": [
-   "historial insuficiente (35 sesiones < 300)"
+   "historial insuficiente (37 sesiones < 300)"
   ]
  },
  "reports": {
   "FDXF": {
    "symbol": "FDXF",
-   "rows_in": 124,
-   "rows_out": 123,
+   "rows_in": 125,
+   "rows_out": 125,
    "duplicates_removed": 0,
-   "invalid_rows_removed": 1,
+   "invalid_rows_removed": 0,
    "ohlc_fixed": 0,
    "spikes_removed": 0,
    "suspicious_moves": 0,
@@ -31,19 +31,19 @@
    "missing_ratio": 0.0,
    "max_gap_sessions": 0,
    "first_date": "2026-05-27",
-   "last_date": "2026-11-18",
+   "last_date": "2026-11-20",
    "usable_for_training": false,
    "usable_for_signals": false,
    "issues": [
-    "historial insuficiente (123 sesiones < 300)"
+    "historial insuficiente (125 sesiones < 300)"
    ]
   },
   "HONA": {
    "symbol": "HONA",
-   "rows_in": 111,
-   "rows_out": 110,
+   "rows_in": 112,
+   "rows_out": 112,
    "duplicates_removed": 0,
-   "invalid_rows_removed": 1,
+   "invalid_rows_removed": 0,
    "ohlc_fixed": 0,
    "spikes_removed": 0,
    "suspicious_moves": 0,
@@ -51,19 +51,19 @@
    "missing_ratio": 0.0,
    "max_gap_sessions": 0,
    "first_date": "2026-06-15",
-   "last_date": "2026-11-18",
+   "last_date": "2026-11-20",
    "usable_for_training": false,
    "usable_for_signals": false,
    "issues": [
-    "historial insuficiente (110 sesiones < 300)"
+    "historial insuficiente (112 sesiones < 300)"
    ]
   },
   "Q": {
    "symbol": "Q",
-   "rows_in": 269,
-   "rows_out": 268,
+   "rows_in": 270,
+   "rows_out": 270,
    "duplicates_removed": 0,
-   "invalid_rows_removed": 1,
+   "invalid_rows_removed": 0,
    "ohlc_fixed": 0,
    "spikes_removed": 0,
    "suspicious_moves": 0,
@@ -71,19 +71,19 @@
    "missing_ratio": 0.0,
    "max_gap_sessions": 0,
    "first_date": "2025-10-27",
-   "last_date": "2026-11-18",
+   "last_date": "2026-11-20",
    "usable_for_training": false,
    "usable_for_signals": false,
    "issues": [
-    "historial insuficiente (268 sesiones < 300)"
+    "historial insuficiente (270 sesiones < 300)"
    ]
   },
   "VYLR": {
    "symbol": "VYLR",
-   "rows_in": 36,
-   "rows_out": 35,
+   "rows_in": 37,
+   "rows_out": 37,
    "duplicates_removed": 0,
-   "invalid_rows_removed": 1,
+   "invalid_rows_removed": 0,
    "ohlc_fixed": 0,
    "spikes_removed": 0,
    "suspicious_moves": 0,
@@ -91,11 +91,11 @@
    "missing_ratio": 0.0,
    "max_gap_sessions": 0,
    "first_date": "2026-10-01",
-   "last_date": "2026-11-18",
+   "last_date": "2026-11-20",
    "usable_for_training": false,
    "usable_for_signals": false,
    "issues": [
-    "historial insuficiente (35 sesiones < 300)"
+    "historial insuficiente (37 sesiones < 300)"
    ]
   }
  }
