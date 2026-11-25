@@ -1,21 +1,21 @@
 {
  "task": "market_update",
- "started_at": "2026-11-24T06:00:23+00:00",
- "finished_at": "2026-11-24T06:03:02+00:00",
+ "started_at": "2026-11-25T04:53:28+00:00",
+ "finished_at": "2026-11-25T04:56:11+00:00",
  "counters": {
   "symbols_updated": 507,
   "symbols_stale": 0,
   "symbols_failed": 0,
   "symbols_rejected_quality": 4,
   "symbols_analyzed": 499,
-  "news_items_processed": 893,
-  "news_archived": 445
+  "news_items_processed": 897,
+  "news_archived": 438
  },
  "info": {
-  "expected_session": "2026-11-23",
+  "expected_session": "2026-11-24",
   "mode": "PAPER_TRADING",
   "universe_size": 503,
-  "data_as_of": "2026-11-23",
+  "data_as_of": "2026-11-24",
   "symbols_eligible": 498,
   "model_version": null,
   "opportunities": 30,
